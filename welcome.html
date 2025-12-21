@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            font-family: Arial;
+            background: linear-gradient(100deg, teal, white);
+            display: flex;
+            flex-direction: column;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 40px;
+        }
+       content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        table {
+            text-align: left;
+        }
+
+        .logout {
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome</h1>
+
+    <div class="content">
+        <table>
+            <tr>
+                <td colspan="2" style="text-align:center;"><b>Subjects</b></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Tamil</td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>English</td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Data Science and AI</td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Mathematics II</td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Chemistry</td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Physics</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="logout">
+        <a href="log.html">Logout</a>
+    </div>
+</body>
+</html>
